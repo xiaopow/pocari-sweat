@@ -11,3 +11,7 @@ iron:router@0.9.4
 accounts-password
 http
 simple:reactive-method
+meteorhacks:npm
+
+
+npm-container
