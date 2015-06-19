@@ -39,6 +39,12 @@ Template.main.helpers({
     console.log(data);
     return data.forecast.txt_forecast.forecastday[0].pop
   },
+  currentTemp: function() {
+    var tempData = ReactiveMethod.call("getCondition");
+    console.log(tempData);
+    console.log(tempData.current_observation.temp_c);
+    return tempData.current_observation.temp_c
+  }
   
 });
 
