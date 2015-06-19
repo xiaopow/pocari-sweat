@@ -33,7 +33,13 @@ Template.main.onRendered(function() {
 Template.main.helpers({
   weatherReady: function() {
     return true
-  }
+  },
+  chanceOfRain: function() {
+    var data = ReactiveMethod.call("getWeather");
+    console.log(data);
+    return data.forecast.txt_forecast.forecastday[0].pop
+  },
+  
 });
 
 Template.main.events({
