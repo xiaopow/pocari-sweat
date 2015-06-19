@@ -1,4 +1,4 @@
-var apn = Meteor.require("apn"),
+var apn = Meteor.npmRequire("apn"),
     path = Npm.require('path'),
     apnOptions = Meteor.settings.apnOptions || {},
     alertSound = apnOptions.sound || "alert.aiff",
