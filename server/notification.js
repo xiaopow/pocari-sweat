@@ -5,11 +5,11 @@ var apn = Meteor.npmRequire("apn"),
     apnConnection
 
 // default apn connection options
-apnOptions = _.extend({
-  cert: path.join(appRootPath, "private", "cert.pem"),
-  key: path.join(appRootPath, "private", "key.pem"),
-}, apnOptions)
-apnConnection = new apn.Connection(apnOptions)
+// apnOptions = _.extend({
+//   cert: path.join(appRootPath, "private", "cert.pem"),
+//   key: path.join(appRootPath, "private", "key.pem"),
+// }, apnOptions)
+// apnConnection = new apn.Connection(apnOptions)
 
 Meteor.methods({
   sendAppleNotifications: function (alert, url, pushIds) {

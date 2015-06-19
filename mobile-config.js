@@ -1,9 +1,9 @@
 App.info({
-  name: 'Todos',
-  description: 'A simple todo list app built in Meteor.',
-  author: 'Percolate Studio Team',
-  email: 'us@percolatestudio.com',
-  website: 'http://percolatestudio.com',
+  name: 'Brella',
+  description: 'An app to remind you to bring your umbrella on a rainy day',
+  author: 'VMX Labs',
+  email: 'vmxlabs@gmail.com',
+  website: 'www.vmxlabs.com',
   version: '0.0.1'
 });
 
