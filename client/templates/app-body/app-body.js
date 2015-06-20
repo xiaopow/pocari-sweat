@@ -33,6 +33,12 @@ Meteor.startup(function () {
 });
 
 Template.appBody.onRendered(function() {
+  
+  this.$('#datetimepicker3').datetimepicker({
+    format: 'LT'
+  });
+  this.$('#datetimepicker3 input').val("10:00 AM");
+
   this.find('#content-container')._uihooks = {
     insertElement: function(node, next) {
       $(node)
@@ -48,6 +54,7 @@ Template.appBody.onRendered(function() {
       });
     }
   };
+
 });
 
 Template.appBody.helpers({
@@ -125,4 +132,5 @@ Template.appBody.events({
 
     Router.go('listsShow', list);
   }
+
 });
