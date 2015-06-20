@@ -47,7 +47,7 @@ var brellaMessages = {
   "There is a very likely chance of rain today... Bring your Brella... Or don't... I really don't care if you get wet.",
   "There is a very likely chance of rain today... Bring your Brella... You will be glad you did..."],
   extremeChance: ["There is an extremely high chance it will rain today... Seriously, bring your Brella... don't be a fool.",
-  "There is an extremely high chance it will rain today... Bring your Brella please... If it don't... I actually won't care."],
+  "There is an extremely high chance it will rain today... Bring your Brella please... Seriously..."],
 
   itWillRain: ["Todays lesson is: Don't Do Drugs, Stay In School Kids, and Bring Your Brella...",
   "Smart people will bring their Brella, Hell... dumb people too",
@@ -118,21 +118,27 @@ Template.main.helpers({
       return "img/weather_icon/clear.svg"
     } else if (icon === "foggy") {
       return "img/weather_icon/foggy.svg"
-    }else if (icon === "hazy") {
-      return "img/weather_icon/hazy.svg"
-    }else if (icon === "mostlycloudy" || icon === "nt_mostlycloudy") {
-      return "img/weather_icon/mostly_cloudy.svg"
-    }else if (icon === "partlycloudy" || icon === "nt_partlycloudy") {
+    } else if (icon === "sunny") {
+      return "img/weather_icon/sunny.svg"
+    } else if (icon === "partlysunny") {
       return "img/weather_icon/partly_cloudy.svg"
-    }else if (icon === "rain") {
+    } else if (icon === "mostlysunny") {
+      return "img/weather_icon/sunny.svg"
+    } else if (icon === "hazy") {
+      return "img/weather_icon/hazy.svg"
+    } else if (icon === "mostlycloudy" || icon === "nt_mostlycloudy") {
+      return "img/weather_icon/mostly_cloudy.svg"
+    } else if (icon === "partlycloudy" || icon === "nt_partlycloudy") {
+      return "img/weather_icon/partly_cloudy.svg"
+    } else if (icon === "rain") {
       return "img/weather_icon/rain.svg"
-    }else if (icon === "shower") {
+    } else if (icon === "shower") {
       return "img/weather_icon/shower.svg"
-    }else if (icon === "chancetstorms") {
+    } else if (icon === "chancetstorms") {
       return "img/weather_icon/thunderstorm.svg"
-    }else if (icon === "verycold") {
+    } else if (icon === "verycold") {
       return "img/weather_icon/very_cold.svg"
-    }else if (icon === "veryhot") {
+    } else if (icon === "veryhot") {
       return "img/weather_icon/very_hot.svg"
     }else {
       return "img/Brella.svg"
