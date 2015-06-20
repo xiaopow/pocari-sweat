@@ -1,6 +1,6 @@
 <template name="main">
   <div class="page lists-show">
-    <nav class="js-title-nav">
+    <nav id="main-nav" class="js-title-nav">
         <div class="nav-group">
           <a href="#" class="js-menu nav-item"><span class="icon-list-unordered" title="Show menu"></span></a>
         </div>
@@ -10,15 +10,28 @@
     </nav>
 
 
-    <div class="content-scrollable">
+    <div id="main-container" class="content-scrollable">
       {{#if weatherReady}}
-        <div class="chanceOfRainTime">{{chanceOfRainTime}}</div>
-        <div class="chanceOfRain">{{chanceOfRain}}%</div>
-        <div>Current Temperature: {{currentTemp}} Celcius</div>
+        <div class="row">
+          <div class="currentWeather col-xs-6 col-xs-offset-3">
+            <div class="chanceOfRainTime">{{chanceOfRainTime}}</div>
+            <div class="chanceOfRain">{{chanceOfRain}}%</div>
+            <div>Chance of Rain</div>
+          </div>
+        </div>      
         
-        <div class="chanceOfRainTime2">{{chanceOfRainTime2}}</div>
-        <div class="chanceOfRain2">{{chanceOfRain2}}%</div>
-        <div class="recommendation">{{brellaMessage}}</div>
+        <div class="row chanceOfRainLater">
+          <div class="chanceOfRainTime2 col-xs-6 col-xs-offset-3"> {{chanceOfRainTime2}} <br>  <span class="chanceOfRain2">{{chanceOfRain2}}%<br></span>Chance of Rain
+          </div>
+        </div>
+
+        <div class="row">
+          <div>Current Temperature <br> <span class="currentTemperature">{{currentTemp}} <img id="celcius" src="img/weather_icon/celcius.svg"></span></div>
+        </div>
+        
+        <div class="row">
+          <div class="recommendation col-xs-10 col-xs-offset-1">{{brellaMessage}}</div>
+        </div>
 
       {{else}}
           <div class="wrapper-message">
