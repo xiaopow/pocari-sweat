@@ -13,3 +13,7 @@ http
 simple:reactive-method
 twbs:bootstrap
 fortawesome:fontawesome
+jquery
+momentjs:moment
+tsega:bootstrap3-datetimepicker
+jiku:bootstrap-toggle
