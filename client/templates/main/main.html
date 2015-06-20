@@ -12,9 +12,13 @@
 
     <div class="content-scrollable">
       {{#if weatherReady}}
+        <div class="chanceOfRainTime">{{chanceOfRainTime}}</div>
         <div class="chanceOfRain">{{chanceOfRain}}%</div>
-        <div class="recommendation">You must bring your brella madafaka!</div>
         <div>Current Temperature: {{currentTemp}} Celcius</div>
+        
+        <div class="chanceOfRainTime2">{{chanceOfRainTime2}}</div>
+        <div class="chanceOfRain2">{{chanceOfRain2}}%</div>
+        <div class="recommendation">{{brellaMessage}}</div>
 
       {{else}}
           <div class="wrapper-message">
