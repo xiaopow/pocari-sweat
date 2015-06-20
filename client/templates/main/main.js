@@ -109,6 +109,55 @@ Template.main.helpers({
     var time2 = ReactiveMethod.call("getWeather");
     return time2.forecast.txt_forecast.forecastday[1].title
   },
+  currentCondition: function() {
+    var condition = ReactiveMethod.call("getWeather");
+    var icon = condition.forecast.txt_forecast.forecastday[0].icon
+
+    if (icon === "cloudy" || icon === "nt_cloudy") {
+      return "img/weather_icon/cloudy.svg"
+    } else if (icon === "clear") {
+      return "img/weather_icon/clear.svg"
+    } else if (icon === "foggy") {
+      return "img/weather_icon/foggy.svg"
+    }else if (icon === "hazy") {
+      return "img/weather_icon/hazy.svg"
+    }else if (icon === "mostlycloudy" || icon === "nt_mostlycloudy") {
+      return "img/weather_icon/mostly_cloudy.svg"
+    }else if (icon === "partlycloudy" || icon === "nt_partlycloudy") {
+      return "img/weather_icon/partly_cloudy.svg"
+    }else if (icon === "rain") {
+      return "img/weather_icon/rain.svg"
+    }else if (icon === "shower") {
+      return "img/weather_icon/shower.svg"
+    }else if (icon === "chancetstorms") {
+      return "img/weather_icon/thunderstorm.svg"
+    }else if (icon === "verycold") {
+      return "img/weather_icon/very_cold.svg"
+    }else if (icon === "veryhot") {
+      return "img/weather_icon/very_hot.svg"
+    }else {
+      return "img/Brella.svg"
+    }
+  },
+  checkUmbrella: function() {
+    var checkUmbrella = ReactiveMethod.call("getWeather");
+
+    if (checkUmbrella.forecast.txt_forecast.forecastday[1].pop > checkUmbrella.forecast.txt_forecast.forecastday[0].pop) {
+      if (checkUmbrella.forecast.txt_forecast.forecastday[1].pop < 50) {
+        return "img/noumbrella.svg"
+      } else {
+        return "img/umbrella.svg"
+      }
+    }       
+
+    if (checkUmbrella.forecast.txt_forecast.forecastday[0].pop < 50) {
+      console.log("HELLO WORLD");
+      return "img/noumbrella.svg"
+     } else {
+      console.log("HELLO WORLD");
+      return "img/umbrella.svg"
+    }
+  },
   brellaMessage: function() {
     var popCheck = ReactiveMethod.call("getWeather");
 
