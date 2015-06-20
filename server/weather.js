@@ -23,11 +23,9 @@ if (Meteor.isServer) {
   Meteor.startup(function () {
     Meteor.call("checkWeather", function(err, res) {
       currentForecast = res.data;
-      console.log(res.data);
     });
     Meteor.call("checkCurrentTemperature", function(err, res) {
       currentTemperature = res.data;
-      console.log(currentTemperature);
     });
     Meteor.setInterval( function () {
       Meteor.call("checkCurrentTemperature", function(err, res) {

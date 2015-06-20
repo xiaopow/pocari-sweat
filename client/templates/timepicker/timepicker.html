@@ -4,16 +4,18 @@
       <span class="input-group-addon">
         <span class="glyphicon glyphicon-time"></span>
       </span>
-      <input type='text' class="form-control">
+      <input type='text' class="form-control" value="{{reminderTime}}">
     </div>
   </div>
-  <div id="reminder-on" class="reminder-switch hide">
-    <div>ON</div>
-    <button id="turn-reminder-off" class="btn btn-primary">Turn Off</button>
-  </div>
-  <div id="reminder-off" class="reminder-switch">
-    <div>OFF</div>
-    <button id="turn-reminder-on" class="btn btn-primary">Turn On</button>
-  </div>
-  <!-- <input id="noti-toggle" type="checkbox" data-toggle="toggle" > -->
+  {{#if reminderOn}}
+    <div id="reminder-on" class="reminder-switch">
+      <div>ON</div>
+      <button id="turn-reminder-off" class="btn btn-primary">Turn Off</button>
+    </div>
+  {{else}}
+    <div id="reminder-off" class="reminder-switch">
+      <div>OFF</div>
+      <button id="turn-reminder-on" class="btn btn-primary">Turn On</button>
+    </div>
+  {{/if}}
 </template>
