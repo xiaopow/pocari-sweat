@@ -68,7 +68,6 @@ Template.main.onRendered(function() {
 
     firstRender = false;
   }
-
   this.find('.js-title-nav')._uihooks = {
     insertElement: function(node, next) {
       $(node)
@@ -179,9 +178,9 @@ Template.main.helpers({
       }        
     }
 
-  if (popCheck.forecast.txt_forecast.forecastday[0].pop < 20) {
-    return _.sample(brellaMessages.lowChance)
-    // return brellaMessages.lowChance[Math.ceil(Math.random()*brellaMessages.lowChance.length)]
+    if (popCheck.forecast.txt_forecast.forecastday[0].pop < 20) {
+      return _.sample(brellaMessages.lowChance)
+      // return brellaMessages.lowChance[Math.ceil(Math.random()*brellaMessages.lowChance.length)]
     } else if (popCheck.forecast.txt_forecast.forecastday[0].pop < 30) {
       return _.sample(brellaMessages.slightChance)
     } else if (popCheck.forecast.txt_forecast.forecastday[0].pop < 50) {
@@ -193,10 +192,12 @@ Template.main.helpers({
     } else {
       return _.sample(brellaMessages.itWillRain)
     }
-}
-  
+  }
+
 });
 
 Template.main.events({
-
+  "click #push": function () {
+    Meteor.call("serverNotification");
+  },
 });

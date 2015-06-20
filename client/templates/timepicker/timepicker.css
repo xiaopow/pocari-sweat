@@ -1,0 +1,50 @@
+.reminder-switch .btn-primary {
+  height: 2em;
+  padding-top: 0.3em !important;
+  border: none;
+}
+
+.time-title {
+  margin-left: 1em;
+  color: #fff; 
+}
+
+.indicator {
+  padding-left: 0.3em;
+  color: #fff;
+}
+
+#datetimepicker3 {
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+#datetimepicker3 input {
+  z-index: 0;
+}
+
+.input-group-addon {
+  background-color: #FF9500;
+}
+
+.glyphicon-time {
+  color: #FFF;
+}
+
+.bootstrap-datetimepicker-widget {
+  margin-right: 1em;
+}
+
+.reminder-switch div, .reminder-switch button{
+  display: inline-block;
+}
+.reminder-switch {
+  margin-left: 1em;
+}
+.reminder-switch div {
+  width: 2em;
+}
+
+.reminder-switch button {
+  width: 11em;
+}

@@ -1,0 +1,17 @@
+{
+  "apn": {
+    "passphrase": "brella",
+    "key": "ios/apn-production/BrellaKey.pem",
+    "cert": "ios/apn-production/BrellaCert.pem"
+  },
+  "apn-dev": {
+    "passphrase": "brella",
+    "key": "ios/apn-development/BrellaKey.pem",
+    "cert": "ios/apn-development/BrellaCert.pem"
+  },
+  "production": false,
+  "badge": true,
+  "sound": true,
+  "alert": true,
+  "vibrate": true
+}
