@@ -1,0 +1,23 @@
+#main-container {
+  background-color: #77DCFF;
+}
+
+.row {
+  margin-bottom: 25px;
+}
+
+.chanceOfRain {
+  font-size: 15vh;
+}
+
+.chanceOfRain2 {
+  font-size: 6vh;
+}
+
+.currentTemperature {
+  font-size: 6vh;
+}
+
+#celcius {
+  height: 3vh;
+}

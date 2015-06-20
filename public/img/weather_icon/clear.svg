@@ -1,62 +1,12 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 15.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="512px" height="512px" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve">
-<g id="Grid_1_">
-	<g id="Layer_1_1_">
-		<g id="Grid">
-			<g>
-				<rect fill="none" stroke="#A9CCDB" stroke-miterlimit="10" width="512" height="512"/>
-				<line fill="none" stroke="#A9CCDB" stroke-miterlimit="10" x1="0" y1="480" x2="512" y2="480"/>
-				<line fill="none" stroke="#A9CCDB" stroke-miterlimit="10" x1="0" y1="448" x2="512" y2="448"/>
-				<line fill="none" stroke="#A9CCDB" stroke-miterlimit="10" x1="0" y1="416" x2="512" y2="416"/>
-				<line fill="none" stroke="#A9CCDB" stroke-miterlimit="10" x1="0" y1="384" x2="512" y2="384"/>
-				<line fill="none" stroke="#A9CCDB" stroke-miterlimit="10" x1="0" y1="352" x2="512" y2="352"/>
-				<line fill="none" stroke="#A9CCDB" stroke-miterlimit="10" x1="0" y1="320" x2="512" y2="320"/>
-				<line fill="none" stroke="#A9CCDB" stroke-miterlimit="10" x1="0" y1="288" x2="512" y2="288"/>
-				<line fill="none" stroke="#A9CCDB" stroke-miterlimit="10" x1="0" y1="256" x2="512" y2="256"/>
-				<line fill="none" stroke="#A9CCDB" stroke-miterlimit="10" x1="0" y1="224" x2="512" y2="224"/>
-				<line fill="none" stroke="#A9CCDB" stroke-miterlimit="10" x1="0" y1="192" x2="512" y2="192"/>
-				<line fill="none" stroke="#A9CCDB" stroke-miterlimit="10" x1="0" y1="160" x2="512" y2="160"/>
-				<line fill="none" stroke="#A9CCDB" stroke-miterlimit="10" x1="0" y1="128" x2="512" y2="128"/>
-				<line fill="none" stroke="#A9CCDB" stroke-miterlimit="10" x1="0" y1="96" x2="512" y2="96"/>
-				<line fill="none" stroke="#A9CCDB" stroke-miterlimit="10" x1="0" y1="64" x2="512" y2="64"/>
-				<line fill="none" stroke="#A9CCDB" stroke-miterlimit="10" x1="0" y1="32" x2="512" y2="32"/>
-				<line fill="none" stroke="#A9CCDB" stroke-miterlimit="10" x1="480" y1="0" x2="480" y2="512"/>
-				<line fill="none" stroke="#A9CCDB" stroke-miterlimit="10" x1="448" y1="0" x2="448" y2="512"/>
-				<line fill="none" stroke="#A9CCDB" stroke-miterlimit="10" x1="416" y1="0" x2="416" y2="512"/>
-				<line fill="none" stroke="#A9CCDB" stroke-miterlimit="10" x1="384" y1="0" x2="384" y2="512"/>
-				<line fill="none" stroke="#A9CCDB" stroke-miterlimit="10" x1="352" y1="0" x2="352" y2="512"/>
-				<line fill="none" stroke="#A9CCDB" stroke-miterlimit="10" x1="320" y1="0" x2="320" y2="512"/>
-				<line fill="none" stroke="#A9CCDB" stroke-miterlimit="10" x1="288" y1="0" x2="288" y2="512"/>
-				<line fill="none" stroke="#A9CCDB" stroke-miterlimit="10" x1="256" y1="0" x2="256" y2="512"/>
-				<line fill="none" stroke="#A9CCDB" stroke-miterlimit="10" x1="224" y1="0" x2="224" y2="512"/>
-				<line fill="none" stroke="#A9CCDB" stroke-miterlimit="10" x1="192" y1="0" x2="192" y2="512"/>
-				<line fill="none" stroke="#A9CCDB" stroke-miterlimit="10" x1="160" y1="0" x2="160" y2="512"/>
-				<line fill="none" stroke="#A9CCDB" stroke-miterlimit="10" x1="128" y1="0" x2="128" y2="512"/>
-				<line fill="none" stroke="#A9CCDB" stroke-miterlimit="10" x1="96" y1="0" x2="96" y2="512"/>
-				<line fill="none" stroke="#A9CCDB" stroke-miterlimit="10" x1="64" y1="0" x2="64" y2="512"/>
-				<line fill="none" stroke="#A9CCDB" stroke-miterlimit="10" x1="32" y1="0" x2="32" y2="512"/>
-			</g>
-		</g>
-	</g>
-</g>
-<g>
-	<g>
-		<path fill-rule="evenodd" clip-rule="evenodd" fill="#1D1D1B" d="M256,144c-61.75,0-112,50.25-112,112c0,61.75,50.25,112,112,112
-			s112-50.25,112-112C368,194.25,317.75,144,256,144z M256,336c-44.188,0-80-35.812-80-80s35.812-80,80-80s80,35.812,80,80
-			S300.188,336,256,336z M256,112c8.833,0,16-7.167,16-16V64c0-8.833-7.167-16-16-16s-16,7.167-16,16v32
-			C240,104.833,247.167,112,256,112z M256,400c-8.833,0-16,7.167-16,16v32c0,8.833,7.167,16,16,16s16-7.167,16-16v-32
-			C272,407.167,264.833,400,256,400z M380.438,154.167l22.625-22.625c6.25-6.25,6.25-16.375,0-22.625
-			c-6.25-6.25-16.375-6.25-22.625,0l-22.625,22.625c-6.25,6.25-6.25,16.375,0,22.625
-			C364.062,160.417,374.188,160.417,380.438,154.167z M131.562,357.834l-22.625,22.625c-6.25,6.249-6.25,16.374,0,22.624
-			s16.375,6.25,22.625,0l22.625-22.624c6.25-6.271,6.25-16.376,0-22.625C147.938,351.583,137.812,351.562,131.562,357.834z M112,256
-			c0-8.833-7.167-16-16-16H64c-8.833,0-16,7.167-16,16s7.167,16,16,16h32C104.833,272,112,264.833,112,256z M448,240h-32
-			c-8.833,0-16,7.167-16,16s7.167,16,16,16h32c8.833,0,16-7.167,16-16S456.833,240,448,240z M131.541,154.167
-			c6.251,6.25,16.376,6.25,22.625,0c6.251-6.25,6.251-16.375,0-22.625l-22.625-22.625c-6.25-6.25-16.374-6.25-22.625,0
-			c-6.25,6.25-6.25,16.375,0,22.625L131.541,154.167z M380.459,357.812c-6.271-6.25-16.376-6.25-22.625,0
-			c-6.251,6.25-6.271,16.375,0,22.625l22.625,22.625c6.249,6.25,16.374,6.25,22.624,0s6.25-16.374,0-22.625L380.459,357.812z"/>
-	</g>
-</g>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="416px" height="416px" viewBox="0 0 416 416" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.2 (12043) - http://www.bohemiancoding.com/sketch -->
+    <title>Shape</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="clear" sketch:type="MSLayerGroup" fill="#FFFFFF">
+            <path d="M208,96 C146.25,96 96,146.25 96,208 C96,269.75 146.25,320 208,320 C269.75,320 320,269.75 320,208 C320,146.25 269.75,96 208,96 L208,96 Z M208,288 C163.812,288 128,252.188 128,208 C128,163.812 163.812,128 208,128 C252.188,128 288,163.812 288,208 C288,252.188 252.188,288 208,288 L208,288 Z M208,64 C216.833,64 224,56.833 224,48 L224,16 C224,7.167 216.833,0 208,0 C199.167,0 192,7.167 192,16 L192,48 C192,56.833 199.167,64 208,64 L208,64 Z M208,352 C199.167,352 192,359.167 192,368 L192,400 C192,408.833 199.167,416 208,416 C216.833,416 224,408.833 224,400 L224,368 C224,359.167 216.833,352 208,352 L208,352 Z M332.438,106.167 L355.063,83.542 C361.313,77.292 361.313,67.167 355.063,60.917 C348.813,54.667 338.688,54.667 332.438,60.917 L309.813,83.542 C303.563,89.792 303.563,99.917 309.813,106.167 C316.062,112.417 326.188,112.417 332.438,106.167 L332.438,106.167 Z M83.562,309.834 L60.937,332.459 C54.687,338.708 54.687,348.833 60.937,355.083 C67.187,361.333 77.312,361.333 83.562,355.083 L106.187,332.459 C112.437,326.188 112.437,316.083 106.187,309.834 C99.938,303.583 89.812,303.562 83.562,309.834 L83.562,309.834 Z M64,208 C64,199.167 56.833,192 48,192 L16,192 C7.167,192 0,199.167 0,208 C0,216.833 7.167,224 16,224 L48,224 C56.833,224 64,216.833 64,208 L64,208 Z M400,192 L368,192 C359.167,192 352,199.167 352,208 C352,216.833 359.167,224 368,224 L400,224 C408.833,224 416,216.833 416,208 C416,199.167 408.833,192 400,192 L400,192 Z M83.541,106.167 C89.792,112.417 99.917,112.417 106.166,106.167 C112.417,99.917 112.417,89.792 106.166,83.542 L83.541,60.917 C77.291,54.667 67.167,54.667 60.916,60.917 C54.666,67.167 54.666,77.292 60.916,83.542 L83.541,106.167 L83.541,106.167 Z M332.459,309.812 C326.188,303.562 316.083,303.562 309.834,309.812 C303.583,316.062 303.563,326.187 309.834,332.437 L332.459,355.062 C338.708,361.312 348.833,361.312 355.083,355.062 C361.333,348.812 361.333,338.688 355.083,332.437 L332.459,309.812 L332.459,309.812 Z" id="Shape" sketch:type="MSShapeGroup"></path>
+        </g>
+    </g>
 </svg>

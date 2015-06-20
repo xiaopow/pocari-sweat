@@ -33,11 +33,11 @@ if (Meteor.isServer) {
       Meteor.call("checkCurrentTemperature", function(err, res) {
         currentTemperature = res.data;
       });
-    }, 600000);
+    }, 300000);
     Meteor.setInterval( function () {
       Meteor.call("checkWeather", function(err, res) {
         currentForecast = res.data;
       });
-    }, 3600000 );
+    }, 300000);
   });
 }
