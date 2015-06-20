@@ -1,0 +1,18 @@
+.toggle.ios, .toggle-on.ios, .toggle-off.ios { 
+  border-radius: 10px;
+  margin-left: 1em;
+}
+.toggle.ios .toggle-handle { 
+  border-radius: 10px; 
+  margin-left: 1em;
+}
+
+.btn, .btn-primary {
+  height: 2em;
+  padding-top: 0.5em !important;
+}
+
+#datetimepicker3 {
+  margin-left: 1em;
+  margin-right: 1em;
+}
