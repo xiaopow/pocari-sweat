@@ -12,23 +12,26 @@
 
     <div id="main-container" class="content-scrollable">
       {{#if weatherReady}}
+        
+        <div class="row">
+          <div class="chanceOfRainTime">{{chanceOfRainTime}}</div>
+          <div class="col-xs-2 col-xs-offset-2"><img class="currentCondition" src={{currentCondition}}></div>
+          <div class="col-xs-6">Current Temperature <br> <span class="currentTemperature">{{currentTemp}} <img id="celcius" src="img/weather_icon/celcius.svg"></span></div>
+        </div>
+        
         <div class="row">
           <div class="currentWeather col-xs-6 col-xs-offset-3">
-            <div class="chanceOfRainTime">{{chanceOfRainTime}}</div>
-            <div class="chanceOfRain">{{chanceOfRain}}%</div>
-            <div>Chance of Rain</div>
+            <div><span class="chanceOfRain">{{chanceOfRain}}%</span></div>
+            <div class="chanceOfRaintxt">Chance of Rain</div>
           </div>
         </div>      
         
         <div class="row chanceOfRainLater">
-          <div class="chanceOfRainTime2 col-xs-6 col-xs-offset-3"> {{chanceOfRainTime2}} <br>  <span class="chanceOfRain2">{{chanceOfRain2}}%<br></span>Chance of Rain
+          <div class="umbrella col-xs-4 col-xs-offset-2"><img class="umbrella" src={{checkUmbrella}} alt="BRELLA HERE"></div>
+          <div class="chanceOfRainTime2 col-xs-4"> {{chanceOfRainTime2}} <br>  <span class="chanceOfRain2">{{chanceOfRain2}}%<br></span><span class="chanceOfRaintxt">Chance of Rain</span>
           </div>
         </div>
 
-        <div class="row">
-          <div>Current Temperature <br> <span class="currentTemperature">{{currentTemp}} <img id="celcius" src="img/weather_icon/celcius.svg"></span></div>
-        </div>
-        
         <div class="row">
           <div class="recommendation col-xs-10 col-xs-offset-1">{{brellaMessage}}</div>
         </div>
