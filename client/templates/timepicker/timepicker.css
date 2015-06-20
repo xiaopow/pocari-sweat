@@ -1,9 +1,7 @@
-.toggle.ios, .toggle-on.ios, .toggle-off.ios { 
-  border-radius: 10px;
+.toggle, .toggle-on, .toggle-off { 
   margin-left: 1em;
 }
-.toggle.ios .toggle-handle { 
-  border-radius: 10px; 
+.toggle .toggle-handle { 
   margin-left: 1em;
 }
 
@@ -36,4 +34,18 @@
 
 .bootstrap-datetimepicker-widget {
   margin-right: 1em;
+}
+
+.reminder-switch div, .reminder-switch button{
+  display: inline-block;
+}
+.reminder-switch {
+  margin-left: 1em;
+}
+.reminder-switch div {
+  width: 2em;
+}
+
+.reminder-switch button {
+  width: 11em;
 }
