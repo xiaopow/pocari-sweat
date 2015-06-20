@@ -1,4 +1,5 @@
 <template name="timePicker">
+  <p class="time-title">Set Your Reminder</p>
   <div class="form-group">
     <div class='input-group date' id='datetimepicker3'>
       <span class="input-group-addon">
@@ -9,12 +10,12 @@
   </div>
   {{#if reminderOn}}
     <div id="reminder-on" class="reminder-switch">
-      <div>ON</div>
+      <div class="indicator">ON</div>
       <button id="turn-reminder-off" class="btn btn-primary">Turn Off</button>
     </div>
   {{else}}
     <div id="reminder-off" class="reminder-switch">
-      <div>OFF</div>
+      <div class="indicator">OFF</div>
       <button id="turn-reminder-on" class="btn btn-primary">Turn On</button>
     </div>
   {{/if}}
