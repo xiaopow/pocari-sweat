@@ -11,3 +11,4 @@ iron:router@0.9.4
 accounts-password
 http
 simple:reactive-method
+twbs:bootstrap
