@@ -12,3 +12,4 @@ accounts-password
 http
 simple:reactive-method
 twbs:bootstrap
+fortawesome:fontawesome
