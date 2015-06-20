@@ -17,15 +17,7 @@
           {{/if}}
         </div>
         <!--The timepicker-->
-        <div class="form-group">
-          <div class='input-group date' id='datetimepicker3'>
-            <span class="input-group-addon">
-              <span class="glyphicon glyphicon-time"></span>
-            </span>
-            <input type='text' class="form-control" >
-          </div>
-        </div>
-        <input type="checkbox" data-toggle="toggle" data-style="ios">
+        {{> timePicker}}
       {{else}}
         <div class="btns-group">
           <a href="{{pathFor 'signin'}}" class="btn-secondary">Sign In</a>
@@ -33,22 +25,6 @@
         </div>
       {{/if}}
 
-      <div class="list-todos">
-        <!-- <a class="js-new-list link-list-new"><span class="icon-plus"></span>New List</a> -->
-
-        <!-- {{#each lists}}
-          <a href="{{pathFor 'listsShow'}}" class="list-todo {{activeListClass}}" title="{{name}}">
-            {{#if userId}}
-              <span class="icon-lock"></span>
-            {{/if}}
-            {{#if incompleteCount}}
-              <span class="count-list">{{incompleteCount}}</span>
-            {{/if}}
-            {{name}}
-          </a>
-        {{/each}} -->
-
-      </div>
     </section>
 
     {{#unless connected}}

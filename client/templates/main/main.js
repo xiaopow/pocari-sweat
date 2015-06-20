@@ -68,7 +68,7 @@ Template.main.onRendered(function() {
 
     firstRender = false;
   }
-
+  this.$('#noti-toggle2').bootstrapToggle();
   this.find('.js-title-nav')._uihooks = {
     insertElement: function(node, next) {
       $(node)

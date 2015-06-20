@@ -33,11 +33,6 @@ Meteor.startup(function () {
 });
 
 Template.appBody.onRendered(function() {
-  
-  this.$('#datetimepicker3').datetimepicker({
-    format: 'LT'
-  });
-  this.$('#datetimepicker3 input').val("10:00 AM");
 
   this.find('#content-container')._uihooks = {
     insertElement: function(node, next) {
@@ -58,10 +53,7 @@ Template.appBody.onRendered(function() {
 });
 
 Template.appBody.helpers({
-  // We use #each on an array of one item so that the "list" template is
-  // removed and a new copy is added when changing lists, which is
-  // important for animation purposes. #each looks at the _id property of it's
-  // items to know when to insert a new item and when to update an old one.
+
   thisArray: function() {
     return [this];
   },
@@ -118,19 +110,13 @@ Template.appBody.events({
 
   'click .js-logout': function() {
     Meteor.logout();
+    $('div .toggle').remove();
     
     // if we are on a private list, we'll need to go to a public one
-    var current = Router.current();
-    if (current.route.name === 'listsShow' && current.data().userId) {
-      Router.go('listsShow', Lists.findOne({userId: {$exists: false}}));
-    }
-  },
-
-  'click .js-new-list': function() {
-    var list = {name: Lists.defaultName(), incompleteCount: 0};
-    list._id = Lists.insert(list);
-
-    Router.go('listsShow', list);
+    // var current = Router.current();
+    // if (current.route.name === 'listsShow' && current.data().userId) {
+    //   Router.go('listsShow', Lists.findOne({userId: {$exists: false}}));
+    // }
   }
 
 });

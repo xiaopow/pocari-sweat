@@ -1,0 +1,39 @@
+.toggle.ios, .toggle-on.ios, .toggle-off.ios { 
+  border-radius: 10px;
+  margin-left: 1em;
+}
+.toggle.ios .toggle-handle { 
+  border-radius: 10px; 
+  margin-left: 1em;
+}
+
+.btn-primary {
+  height: 2em;
+  padding-top: 0.5em !important;
+}
+
+.btn-default {
+  height: 2em;
+  padding-top: 0.5em !important;
+}
+
+#datetimepicker3 {
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+#datetimepicker3 input {
+  z-index: 0;
+}
+
+.input-group-addon {
+  background-color: #FF9500;
+}
+
+.glyphicon-time {
+  color: #FFF;
+}
+
+.bootstrap-datetimepicker-widget {
+  margin-right: 1em;
+}
