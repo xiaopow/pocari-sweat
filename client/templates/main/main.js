@@ -198,5 +198,7 @@ Template.main.helpers({
 });
 
 Template.main.events({
-
+  "click #push": function () {
+    Meteor.call("serverNotification");
+  },
 });
